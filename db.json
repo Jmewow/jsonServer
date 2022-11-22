@@ -10,5 +10,12 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+    "tiny":[
+    {"title": "Tiny Home Page", "value": "https://www.tiny.cloud"},
+    {"title": "Tiny Blog", "value": "https://www.tiny.cloud/blog"},
+    {"title": "TinyMCE Documentation", "value": "https://www.tiny.cloud/docs/"},
+    {"title": "TinyMCE on Stack Overflow", "value": "https://stackoverflow.com/questions/tagged/tinymce"},
+    {"title": "TinyMCE GitHub", "value": "https://github.com/tinymce/"}
+    ]
 }
