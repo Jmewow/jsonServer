@@ -1,13 +1,4 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
   "profile": {
     "name": "typicode"
   },
@@ -17,5 +8,61 @@
     {"title": "TinyMCE Documentation", "value": "https://www.tiny.cloud/docs/"},
     {"title": "TinyMCE on Stack Overflow", "value": "https://stackoverflow.com/questions/tagged/tinymce"},
     {"title": "TinyMCE GitHub", "value": "https://github.com/tinymce/"}
-    ]
+    ],
+  "site":{
+  "id" : 6,
+  "name" : "Business Template",
+  "description" : "Professionally designed business template is pre-configured to satisfy the requirements of most SME users. Replace the default content with your own and your new company website will be ready in a day!",
+  "url" : "business-template.webpuzzledev.com",
+  "faviconUrl" : null,
+  "logoUrl" : null,
+  "baseLanguage" : "en",
+  "gaCode" : null,
+  "grSkCode" : null,
+  "grPkCode" : null,
+  "commContact" : null,
+  "paymentContact" : null,
+  "thumbnail" : "template-images/business-template.jpg",
+  "template" : 1,
+  "noIndex" : 0,
+  "productTax" : 0.00,
+  "stripeKey" : null,
+  "stripePublishKey" : null,
+  "paypalSecretKey" : null,
+  "paypalPublishKey" : null,
+  "companyAddress" : null,
+  "emailText" : null,
+  "invoiceFooterText" : null,
+  "invoicePrefix" : null,
+  "invoiceStartNumber" : 0,
+  "displayNetPrice" : 0,
+  "active" : 1,
+  "ownerId" : 1,
+  "cloneId" : 0,
+  "multilingual" : false,
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/sites/6"
+    },
+    "site" : {
+      "href" : "http://localhost:8080/api/sites/6"
+    },
+    "currency" : {
+      "href" : "http://localhost:8080/api/sites/6/currency"
+    },
+    "siteTemplate" : {
+      "href" : "http://localhost:8080/api/sites/6/siteTemplate"
+    },
+    "siteCss" : {
+      "href" : "http://localhost:8080/api/sites/6/siteCss"
+    },
+    "siteFilestore" : {
+      "href" : "http://localhost:8080/api/sites/6/siteFilestore"
+    },
+    "languages" : {
+      "href" : "http://localhost:8080/api/sites/6/languages"
+    }
+  }
+},
+  "languageList":[{"code":"sq","name":"Albanian","icon":"null"},{"code":"zh","name":"Chinese (Simplified)","icon":"null"},{"code":"hr","name":"Croatian","icon":"null"},{"code":"cs","name":"Czech","icon":"null"},{"code":"da","name":"Danish","icon":"null"},{"code":"nl","name":"Dutch","icon":"null"},{"code":"en","name":"English","icon":"https:\/\/lipis.github.io\/flag-icon-css\/flags\/4x3\/gb.svg"},{"code":"fi","name":"Finnish","icon":"null"},{"code":"fr","name":"French","icon":"https:\/\/lipis.github.io\/flag-icon-css\/flags\/4x3\/gb.svg"},{"code":"de","name":"German","icon":"null"},{"code":"el","name":"Greek","icon":"null"},{"code":"iw","name":"Hebrew","icon":"null"},{"code":"hi","name":"Hindi","icon":"null"},{"code":"hu","name":"Hungarian","icon":"null"},{"code":"is","name":"Icelandic","icon":"null"},{"code":"it","name":"Italian","icon":"null"},{"code":"ja","name":"Japanese","icon":"null"},{"code":"ko","name":"Korean","icon":"null"},{"code":"no","name":"Norwegian","icon":"null"},{"code":"fa","name":"Persian","icon":"null"},{"code":"pl","name":"Polish","icon":"null"},{"code":"pt","name":"Portuguese","icon":"null"},{"code":"ro","name":"Romanian","icon":"null"},{"code":"ru","name":"Russian","icon":"null"},{"code":"sr","name":"Serbian","icon":"null"},{"code":"sk","name":"Slovak","icon":"null"},{"code":"sl","name":"Slovenian","icon":"null"},{"code":"es","name":"Spanish","icon":"null"},{"code":"sv","name":"Swedish","icon":"null"},{"code":"tr","name":"Turkish","icon":"null"},{"code":"vi","name":"Vietnamese","icon":"null"}]
 }
